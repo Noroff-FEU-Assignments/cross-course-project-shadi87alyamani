@@ -1,0 +1,112 @@
+
+
+header img{
+
+    width: 200px;
+    height: 150px;
+    
+}
+
+.hand-bag{
+     position: absolute;
+    left: 20px;
+    top: 60px;
+    display: none;
+}
+.hand-bag  a{
+    border: 1px solid black;
+    text-decoration: none;
+    display: block ;
+    background-color: rgb(218, 226, 226);
+    
+}
+
+.user{
+    display: inline;
+    position: absolute;
+    left: 150px;
+    top: 60px;
+    display: none;
+}
+.user a{
+    border: 1px solid black;
+    text-decoration: none;
+    display: block ;
+    background-color: rgb(218, 226, 226);
+    
+}
+
+img{
+    width: 90%;
+}
+
+i{
+    margin: 15px;
+}
+.icon-bar{
+    background-color: rgb(156, 156, 223);
+   
+}
+.nav-bar{
+    width: auto;
+}
+
+.logo-bar{
+    display: flex;
+}
+
+li {
+    display: inline;
+}
+
+select{
+    width: 50%;
+    display: none;
+    margin: 3px;
+}
+@media only screen and (max-width : 600px) {
+     ul{
+         display: none;
+
+     }  
+      select{
+         display: block;
+     }
+
+     .logo-bar {
+         display: flex;
+         flex-direction: column;  
+     }
+    
+     .icon-bar {
+         text-align: center;
+     }
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
